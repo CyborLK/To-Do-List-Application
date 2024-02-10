@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo List</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="app">
+            <h1>Todo List 1.0</h1>
+            <h2>"Wish it, Plan it, Do it."</h2>
+            <input type="text" id="todo-input" placeholder="Add a new task...">
+            <button id="add-btn">Add</button>
+            <div class="filter-btns">
+                <button id="filter-all" class="filter-btn active">All</button>
+                <button id="filter-completed" class="filter-btn">Completed</button>
+                <button id="filter-incomplete" class="filter-btn">Incomplete</button>
+            </div>
+            <ul id="todo-list"></ul>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
